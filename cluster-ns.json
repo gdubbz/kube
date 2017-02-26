@@ -1,0 +1,27 @@
+{
+  "Comment": "Create a subdomain NS record in the parent domain",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "kluster.grantwnorman.com",
+        "Type": "NS",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "ns-1355.awsdns-41.org"
+          },
+          {
+            "Value": "ns-349.awsdns-43.com"
+          },
+          {
+            "Value": "ns-1866.awsdns-41.co.uk"
+          },
+          {
+            "Value": "ns-747.awsdns-29.net"
+          }
+        ]
+      }
+    }
+  ]
+}
